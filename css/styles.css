@@ -155,7 +155,15 @@ header {
     background: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+   background-color: #2E2F42;
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.jpeg);
+  background-repeat: no-repeat;
 }
+
 
 .hero-title {
     color: #FFF;
@@ -200,11 +208,19 @@ background-color: #404BBF;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.featurs-icons {
+width: 264px;
+height: 112px;
+flex-shrink: 0;
+border-radius: 4px;
+background:  #F4F4FD;
+}
 .featurs-subtitle-icons {
-    width: 64px;
+width: 64px;
 height: 64px;
 display: flex;
 margin: auto;
+padding-top: 24px;
 }
 .featurs-list {
     display: flex;
@@ -218,6 +234,7 @@ margin: auto;
 
 .featurs-item {
     margin-bottom: 8px ;
+    margin-top: 8px;
 }
 /*------------DOING-----------*/
 
@@ -250,7 +267,12 @@ margin: auto;
 .team {background: #F4F4FD;
 padding: 120px 0;
 }
-
+.taem-icons-link {
+    width: 16px;
+height: 16px;
+flex-shrink: 0;
+margin: auto;
+}
 .team-list{ 
     display: flex;
     gap: 24px;
@@ -289,6 +311,12 @@ height: 40px;
 padding: 32px 16px;
 
 }
+.taem-icons-link {
+   display: inline-flex;
+   align-content: flex-start;
+
+}
+
 /*------------FOOTER-----------*/
 
 .footer {
