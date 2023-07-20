@@ -465,8 +465,8 @@ padding: 120px 0;
             display: flex;
             max-width: 264px;
             flex-direction: column;
-            flex-shrink: 0;
-        }
+             font-weight: 400;
+                    }
      .footer-list {
         display: flex;
         gap: 16px;
