@@ -613,10 +613,11 @@ img {
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-.service-cover:hover .service-cover-text,
-.service-cover:focus .sevice-cover-text {
-    transform: translateY(0%);
-}        
+  .service-link:hover .service-cover-text,
+  .service-link:focus .service-cover-text {
+      transform: translateY(0%);
+   }
+       
 .service-cover-text {
 background: var(--accent-color);
 align-items: center;
